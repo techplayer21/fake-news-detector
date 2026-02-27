@@ -1,6 +1,6 @@
-​# 🛡️ Fake News Detection System:
+# 🛡️ Fake News Detection System:
 <br>
-### ​📖 Project Overview:
+## ​📖 Project Overview:
 <br>
 ​This repository features an end-to-end Machine Learning solution designed to classify news articles as Real (1) or Fake (0). By utilizing Natural Language Processing (NLP) and Logistic Regression, the system provides a robust mechanism for identifying misinformation in real-time.
 <br>
