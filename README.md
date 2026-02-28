@@ -6,7 +6,7 @@
 ​This repository features an end-to-end Machine Learning solution designed to classify news articles as Real (1) or Fake (0). By utilizing Natural Language Processing (NLP) and Logistic Regression, the system provides a robust mechanism for identifying misinformation in real-time.
 <br>
 
-​### 🛠️ Tech Stack & Development Environment:
+### 🛠️ Tech Stack & Development Environment:
 <br>
 ​-Core Language: Python 3.12. 
 <br>
@@ -16,7 +16,7 @@
 <br>
 ​-Infrastructure: WSL (Ubuntu), Docker.
 <br>
-​
+
 ### 📂 Repository Structure:
 <br>​
 -experiment.ipynb: Interactive notebook for data exploration, visualization, and model selection. 
@@ -38,7 +38,7 @@
 <br>
 ​-Accuracy: ~98% (Tested on Kaggle dataset).
 <br>
-​
+
 ### 👤 Author:​
 Yash Raj 
 <br>
