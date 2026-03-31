@@ -15,7 +15,7 @@
 ​-Infrastructure: WSL (Ubuntu), Docker.
 <br>
 
-### 📂 Repository Structure: <br>​
+### 📂 Repository Structure: ​
 -experiment.ipynb: Interactive notebook for data exploration, visualization, and model selection. 
 <br>
 ​-train.py: Clean, automated script for model training and generating .pkl artifacts. 
