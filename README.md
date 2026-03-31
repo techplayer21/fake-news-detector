@@ -4,7 +4,7 @@
 ​This repository features an end-to-end Machine Learning solution designed to classify news articles as Real (1) or Fake (0). By utilizing Natural Language Processing (NLP) and Logistic Regression, the system provides a robust mechanism for identifying misinformation in real-time.
 <br>
 
-### 🛠️ Tech Stack & Development Environment: <br>
+### 🛠️ Tech Stack & Development Environment: 
 ​-Core Language: Python 3.12. 
 <br>
 ​-Data Science: Scikit-Learn, Pandas, Matplotlib, Seaborn, Joblib. 
@@ -26,7 +26,7 @@
 ​-.gitignore: Filter to maintain a clean repository by excluding venv/ and raw datasets.
 <br>
 
-### 📊 Model Information: <br>
+### 📊 Model Information: 
 ​-Algorithm: Logistic Regression. 
 <br>
 ​-Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency). 
