@@ -1,40 +1,68 @@
-# 🛡️ Fake News Detection System:
+# Fake News Detection System
 
-### ​📖 Project Overview: 
-​This repository features an end-to-end Machine Learning solution designed to classify news articles as Real (1) or Fake (0). By utilizing Natural Language Processing (NLP) and Logistic Regression, the system provides a robust mechanism for identifying misinformation in real-time.
-<br>
+An end-to-end Machine Learning project that detects whether a news article is Real or Fake using Natural Language Processing (NLP), TF-IDF vectorization, and Logistic Regression.
 
-### 🛠️ Tech Stack & Development Environment: 
-​-Core Language: Python 3.12. 
-<br>
-​-Data Science: Scikit-Learn, Pandas, Matplotlib, Seaborn, Joblib. 
-<br>
-​-Web Interface: Streamlit. 
-<br>
-​-Infrastructure: WSL (Ubuntu), Docker.
-<br>
+## Live Demo
 
-### 📂 Repository Structure: ​
--experiment.ipynb: Interactive notebook for data exploration, visualization, and model selection. 
-<br>
-​-train.py: Clean, automated script for model training and generating .pkl artifacts. 
-<br>
-​-app.py: Streamlit application providing the front-end user experience. 
-<br>
-​-Dockerfile: Configuration for building a portable, production-ready container. 
-<br>
-​-.gitignore: Filter to maintain a clean repository by excluding venv/ and raw datasets.
-<br>
+App: https://fake-news-detector-qxm4bxzraky2nraz7zgyxr.streamlit.app
 
-### 📊 Model Information: 
-​-Algorithm: Logistic Regression. 
-<br>
-​-Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency). 
-<br>
-​-Accuracy: ~98% (Tested on Kaggle dataset).
-<br>
+## Tech Stack
 
-### 👤 Author:​
-Yash Raj 
-<br>
-Aspiring Machine Learning Engineer
+* Python
+* Pandas
+* Scikit-Learn
+* Matplotlib
+* Seaborn
+* Joblib
+* Streamlit
+* Docker
+* Git/GitHub
+
+## Features
+
+* News article classification
+* Text preprocessing
+* TF-IDF vectorization
+* Logistic Regression model
+* Model evaluation
+* Real-time prediction through Streamlit
+* Model persistence using Joblib
+* Docker containerization
+
+## Project Structure
+
+fake-news-detection/
+
+├── experiment.ipynb
+
+├── train.py
+
+├── app.py
+
+├── requirements.txt
+
+├── Dockerfile
+
+└── .gitignore
+
+## Run Locally
+
+pip install -r requirements.txt
+
+python train.py
+
+streamlit run app.py
+
+Open:
+
+http://localhost:8501
+
+## Model
+
+* Logistic Regression
+* TF-IDF Vectorizer
+* Accuracy: ~98%
+
+## Author
+
+Yash Raj
